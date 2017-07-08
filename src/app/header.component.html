@@ -1,9 +1,10 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+      data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Скрыть панель навигации</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -14,8 +15,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li routerLinkActive="active"><a [routerLink]="['/home']">Home</a></li>
-        <li routerLinkActive="active"><a [routerLink]="['/contacts']">Contacts</a></li>
+        <li routerLinkActive="active"><a [routerLink]="['/about']">Обо мне</a></li>
+        <li routerLinkActive="active"><a [routerLink]="['/gallery']">Галерея</a></li>
+        <li routerLinkActive="active"><a [routerLink]="['/lessons']">Angular 4</a></li>
+        <li routerLinkActive="active"><a [routerLink]="['/contacts']">Контакты</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

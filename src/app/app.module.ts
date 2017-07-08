@@ -10,6 +10,9 @@ import { routing } from './app.routing';
 import { HeaderComponent } from './header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CaruselComponent } from './carusel/carusel.component';
+import { LessonsComponent } from './lessons/lessons.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { CaruselComponent } from './carusel/carusel.component';
     HomeComponent,
     ContactsComponent,
     HeaderComponent,
-    CaruselComponent
+    CaruselComponent,
+    LessonsComponent,
+    GalleryComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
