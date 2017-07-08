@@ -1,16 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-@media only screen and (max-width: 767px) {
-  body {
-    /* Размер фонового изображения уменьшен на 93%, чтобы улучшить скорость загрузки страницы  на устройствах, использующих мобильный Интернет */
-    background-image: url(./assets/img/mobile.jpg);
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-  }
-}
-
 body{
   padding-left: 70px;
+  padding-right: 70px;
   padding-top: 30px;
   color: white;
   background-image: url(./assets/img/cosmos.jpg);
@@ -22,4 +12,14 @@ body{
 
 h1{
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    /* Размер фонового изображения уменьшен на 93%, чтобы улучшить скорость загрузки страницы  на устройствах, использующих мобильный Интернет */
+    background-image: url(./assets/img/mobile.jpg);
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+  }
 }
