@@ -2,18 +2,16 @@
 @media only screen and (max-width: 767px) {
   body {
     /* Размер фонового изображения уменьшен на 93%, чтобы улучшить скорость загрузки страницы  на устройствах, использующих мобильный Интернет */
-    background-color: black;
+    background-image: url(./assets/img/mobile.jpg);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
   }
 }
 
-html{
-  padding-left: 30px;
-  padding-right: 30px;
-}
 body{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
+  padding-left: 70px;
+  padding-top: 30px;
   color: white;
   background-image: url(./assets/img/cosmos.jpg);
   background-position: center center;
