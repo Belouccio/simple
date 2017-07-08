@@ -1,4 +1,6 @@
-<h1>Welcome</h1>
-<a [routerLink]="['/home']">Home</a>
-<a [routerLink]="['/contacts']">Contacts</a>
-<router-outlet></router-outlet>
+<app-header></app-header>
+<hr>
+<app-carusel></app-carusel>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

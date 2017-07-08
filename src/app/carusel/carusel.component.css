@@ -1,0 +1,10 @@
+.carousel {
+  max-height: 600px;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.carousel-inner .item{
+  max-height: 600px;
+  width: 100%;
+}

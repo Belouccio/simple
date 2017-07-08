@@ -7,17 +7,24 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { routing } from './app.routing';
+import { HeaderComponent } from './header.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CaruselComponent } from './carusel/carusel.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactsComponent
+    ContactsComponent,
+    HeaderComponent,
+    CaruselComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    NgbModule.forRoot(),
     routing
   ],
   providers: [],

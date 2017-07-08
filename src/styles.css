@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@media only screen and (max-width: 767px) {
+  body {
+    /* Размер фонового изображения уменьшен на 93%, чтобы улучшить скорость загрузки страницы  на устройствах, использующих мобильный Интернет */
+    background-color: black;
+  }
+}
+
+body{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  color: white;
+  background-image: url(./assets/img/cosmos.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+}
